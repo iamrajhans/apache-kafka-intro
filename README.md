@@ -12,6 +12,10 @@ Need to start zookeeper before we can start kafka.
 
 `zkServer start`
 
+To stop zookeeper
+
+`zkServer stop`
+
 Start kafka server
 
 `cd /usr/local/Cellar/kafka/0.11.0.1/bin`
