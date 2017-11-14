@@ -21,3 +21,7 @@ Start kafka server
 `cd /usr/local/Cellar/kafka/0.11.0.1/bin`
 `kafka-server-start.sh /usr/local/etc/kafka/server.properties`
 
+Start consumer 
+
+`kafka-console-consumer --zookeeper localhost:2181 --topic topic_name --from-beginning `
+
