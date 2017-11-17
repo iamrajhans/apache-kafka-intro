@@ -25,3 +25,4 @@ Start consumer
 
 `kafka-console-consumer --zookeeper localhost:2181 --topic topic_name --from-beginning `
 
+It creates topics on which it can listen 
