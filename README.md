@@ -43,3 +43,5 @@ It creates topics on which it can listen
 ```
 $ kafka-console-producer.sh --broker-list localhost:9092 --topic test
 ```
+
+When running more broker instance make sure `broker.id` property is unique and which is the permanent name of each node in the cluster. 
